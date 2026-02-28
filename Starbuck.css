@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'SoDo Sans';
-    src: url('sodo-sans\SoDoSans-Black.woff2') format('woff2'),
-         url('SoDoSans-Regular.woff') format('woff'),
-         url('SoDoSans-light.woff') format('woff'),
-         url('SoDoSans-Bold.woff') format('woff');
+    src: 
+         url('sodo-sans/SoDoSans-Regular.woff') format('woff'),
+         url('sodo-sans/SoDoSans-light.woff') format('woff'),
+         url('sodo-sans/SoDoSans-Bold.woff') format('woff');
 }
 
 body{
@@ -81,11 +81,9 @@ main{
     align-items: center;
     justify-content: center;
     padding: 22px 0px;
-    font-size:16px;
+    font-size:8px;
 }
-.titlebar h3{
-    /* padding-top: 40px; */
-}
+
 .bar{
     font-size: large;
     color: whitesmoke;
